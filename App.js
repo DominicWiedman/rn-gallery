@@ -130,7 +130,7 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: Platform.OS === 'ios' ? 20 : 0,
+        marginTop: Platform.OS === 'ios' ? 40 : 0,
         flex: 1,
         flexDirection: 'column',
         backgroundColor: 'black',
@@ -142,6 +142,7 @@ const styles = StyleSheet.create({
         paddingVertical: 80
     },
     modal: {
+        marginTop: Platform.OS === 'ios' ? 40 : 0,
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
